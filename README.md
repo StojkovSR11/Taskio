@@ -11,7 +11,6 @@ This project is a platform designed for managing projects and tasks, similar to 
    - **Tasks**: Handles task statuses and dependencies.
    - **Notifications**: Sends and manages user notifications.
    - **Workflow**: Manages task dependencies.
-   - **Analytics**: Provides historical data and analytics related to projects.
 
 ## Functional Requirements
 - User Registration, Login, and Account Deletion.
@@ -25,12 +24,8 @@ This project is a platform designed for managing projects and tasks, similar to 
 - Microservice-based design with API Gateway.
 - Containerization with Docker.
 - Fault Tolerance and Resilience using various mechanisms.
-- Tracing and Logging for microservice interactions.
-- Event Sourcing and CQRS patterns.
-- Kubernetes Deployment.
 
 ## Technologies Used
-- **Backend**: Java, Spring Boot, Node.js, Express.
-- **Database**: MongoDB (Document-based), Cassandra (Wide-column), Neo4j (Graph), HDFS.
-- **Infrastructure**: Docker, Kubernetes, Redis, Jaeger.
-- **CI/CD**: GitHub Actions.
+- **Backend**: Go
+- **Database**: MongoDB (Document-based), Cassandra (Wide-column)
+- **Infrastructure**: Docker
